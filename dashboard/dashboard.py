@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 
-data_folder = Path("..", "data")
+data_folder = Path("data")
 
 if not data_folder.exists():
     st.error(f"Folder {data_folder} tidak ditemukan. Pastikan folder tersebut ada.")
